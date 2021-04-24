@@ -11,7 +11,7 @@ public class SuhuAir {
 
         /*Program*/
         System.out.println("Contoh IF tiga kasus");
-        System.out.println("Suhu (der. C)= ");
+        System.out.print("Suhu (der. C) = ");
 
         // Scanner untuk masukan suhu air
         Scanner scanner = new Scanner(System.in);

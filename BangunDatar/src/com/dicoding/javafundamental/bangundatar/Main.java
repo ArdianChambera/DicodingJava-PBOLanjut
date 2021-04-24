@@ -34,18 +34,18 @@ public class Main {
                 break;
             }
             case '2' : {
-                System.out.println("Masukan alas segitiga siku : ");
+                System.out.print("Masukan alas segitiga siku : ");
                 s1 = scanner.nextInt();
-                System.out.println("Masukkan tinggi segitiga siku : ");
+                System.out.print("Masukkan tinggi segitiga siku : ");
                 s2 = scanner.nextInt();
                 System.out.println("Luas segitiga : " + osegitiga.luas(s1, s2));
                 System.out.println("Keliling segitiga : " + osegitiga.keliling(s1, s2));
                 break;
             }
             case '3' : {
-                System.out.println("Masukkan jari-jari lingkaran : ");
+                System.out.print("Masukkan jari-jari lingkaran : ");
                 r = scanner.nextInt();
-                System.out.println("Luas lingkaran : " + olingkaran.luas(r));
+                System.out.print("Luas lingkaran : " + olingkaran.luas(r));
                 System.out.println("Keliling lingkaran : " + olingkaran.keliling(r));
                 break;
             }
